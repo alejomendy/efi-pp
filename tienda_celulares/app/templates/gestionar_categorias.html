@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Gestionar Categorías</h1>
+<form method="POST">
+    <input type="text" name="nombre" placeholder="Nombre de la Categoría" required>
+    <button type="submit">Agregar Categoría</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for categoria in categorias %}
+        <tr>
+            <td>{{ categoria.id }}</td>
+            <td>{{ categoria.nombre }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

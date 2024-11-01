@@ -1,0 +1,64 @@
+/* Background colors and text styling */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom styling for navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* Card styling */
+.card {
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.btn-custom {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #ffdd57;
+    color: #343a40;
+}
+
+/* Spacing for forms and tables */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    margin-top: 1rem;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
